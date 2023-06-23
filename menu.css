@@ -62,14 +62,3 @@ h4
     padding: 16px;
 }
 
-.sticky
-{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.stiky + .content
-{
-    padding-top: 60px;
-}
