@@ -4,11 +4,20 @@ body
     font-size:28px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.header
+{
+    background-color: azure;
+    padding: 30px;
+    text-align: center;
+}
+
 #navbar
 {
     overflow: hidden;
     background-color: #123;
 }
+
 #navbar a
 {
     float: left;
@@ -20,6 +29,13 @@ body
     font-size: 17px;
 
 }
+
+#navbar a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+
 .content 
 {
     padding: 16px;
@@ -30,4 +46,9 @@ body
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.stiky + .content
+{
+    padding-top: 60px;
 }
