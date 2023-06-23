@@ -10,6 +10,7 @@ body
     background-color: gray;
     padding: 30px;
     text-align: center;
+    color: 	#F5F5F5;
 }
 
 #navbar
@@ -38,6 +39,26 @@ body
 
 .content 
 {
+    padding: 16px;
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.stiky + .content
+{
+    padding-top: 60px;
+}
+
+h4
+{
+  text-align: center;
+}
+
     padding: 16px;
 }
 
