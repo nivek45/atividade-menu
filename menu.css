@@ -15,7 +15,7 @@ body
 #navbar
 {
     overflow: hidden;
-    background-color: #123;
+    background-color: #333;
 }
 
 #navbar a
@@ -25,14 +25,14 @@ body
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: nome;
+    text-decoration: none;
     font-size: 17px;
 
 }
 
 #navbar a:hover 
 {
-    background-color: #ddd;
+    background-color: burlywood;
     color: black;
 }
 
